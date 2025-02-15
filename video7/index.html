@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - let's learn it</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <h1>Student Registration form</h1>
+      <div>
+        <label for="username">User Name :</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Your User Name"
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="unsubscribe" name="unsubscribe" value="no" />
+        <label for="unsubscribe">Unsubscribe</label>
+      </div>
+      <div>
+        <label for="comment">Comment:</label><br />
+        <textarea name="comment" id="comment" cols="30" rows="10">
+Enter your comment..
+        </textarea>
+      </div>
+      <div>
+        <select name="hobby" id="hobby">
+          <option value="hobby">Hobby</option>
+          <option value="sport">Sports</option>
+          <option value="music">Music</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
