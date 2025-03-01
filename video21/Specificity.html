@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity - CSS USE CASCADE ALGORITHM</title>
+    <!-- Specificity Calculation
+    universal - 0
+    element - 1
+    class, attribute, pseudo - 10
+    id - 100
+    inline - 1000
+    important - 10000 -->
+    <style>
+      h1 {
+        color: grey;
+      }
+      .red {
+        color: red;
+      }
+      h1    .yellow {
+        color: yellow;
+      }
+      .blue {
+        color: blue;
+      }
+      .green {
+        color: green;
+      }
+      [class-man="1"] {
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class-man="1" class="red yellow blue green">Specificity</h1>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Sigmar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomakh&display=swap");
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: blue;
+  text-decoration-thickness: 7px;
+  text-align: center;
+}
+
+p {
+  /* font-family: "Sigmar", serif; */
+  /* font-family: "Poppins", serif; */
+  font-family: "Monomakh", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* letter-spacing: 5px; */
+  /* line-height: 1.4; */
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-weight: bold; */
+  /* font-style: italic; */
+  /* text-decoration: underline; */
+}
