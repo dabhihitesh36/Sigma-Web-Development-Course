@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Float and Clear Property</title>
+    <style>
+      img {
+        float: left;
+      }
+      .cards {
+        border: 2px solid black;
+        display: flow-root;
+      }
+      .card {
+        border: 2px solid red;
+      }
+      /* .cards:nth-child(3){
+        clear: right;
+      } */
+      .card:nth-child(3) {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <img
+        src="https://www.shutterstock.com/image-photo/new-beginnings-start-happy-man-260nw-1390569914.jpg"
+        alt=""
+        width="122px"
+      />
+      <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa
+        vitae distinctio dolore facilis ipsa deserunt rem, aut excepturi non?
+      </div>
+      <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        quisquam, consequuntur earum suscipit, odio rem, consequatur quas et
+        nemo beatae nobis quidem hic iste magnam atque placeat omnis? Libero
+        nihil doloremque autem laboriosam officia! Recusandae nihil laboriosam
+        ut! Dolorem a porro ex numquam nisi at nostrum debitis sequi cumque,
+        adipisci tempore, quidem odit vitae eius vero quod quo totam quibusdam
+        quaerat assumenda ad iste corrupti architecto animi! Quis doloremque
+        magnam unde id, autem quas magni corporis, commodi, at ullam eos
+        repellendus? Aliquam amet consectetur omnis id distinctio dolor suscipit
+        dolorem laudantium ducimus! In facilis magni, qui excepturi totam
+        repellat ratione eaque ab blanditiis quibusdam, iste cumque quam iusto
+        eligendi soluta. Fuga, delectus! Fuga animi, aspernatur culpa magni odit
+        enim perferendis at ex veritatis quis sunt excepturi molestias cumque
+        consequatur nemo minus. Saepe nostrum, non deleniti sequi perspiciatis
+        molestias delectus, pariatur illo, facilis corporis reiciendis. Sit ea
+        suscipit nemo accusantium, ad tenetur architecto Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Tenetur rerum, consequuntur quo quos
+        quae consectetur explicabo quam facere! Nesciunt consequuntur ut,
+        perferendis a odio unde mollitia quo necessitatibus, enim tempora
+        expedita praesentium corporis similique? Odio et numquam, quisquam
+        laborum ducimus perferendis adipisci deserunt, mollitia nesciunt soluta
+        pariatur velit assumenda fugiat. reprehenderit officiis hic animi? Illum
+        facilis enim nobis consectetur? Dignissimos magnam facilis dolorem ullam
+        eos eaque, soluta laboriosam quos illum deserunt. Veniam cumque ipsum
+        asperiores autem vel commodi beatae blanditiis sapiente nisi aperiam,
+        praesentium voluptates amet architecto id iusto, expedita aliquid quam
+        qui ratione. Voluptatibus velit aspernatur sit?
+      </div>
+      <div class="card">Card3</div>
+    </div>
+  </body>
+</html>

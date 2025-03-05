@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise - 4</title>
+    <style>
+      :root {
+        --primary-color: rgb(24, 224, 108);
+        --text-color : white;
+        --secondary-color: rgba(103, 221, 152, 0.76);
+      }
+       /* :root {
+        --primary-color: blueviolet;
+        --text-color : white;
+        --secondary-color: rgba(177, 114, 236, 0.678);
+      } */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: var(--secondary-color);
+      }
+      nav {
+        padding: 12px 0;
+        background-color: var(--primary-color, blue);
+      }
+      nav ul {
+        display: flex;
+        justify-content: end;
+      }
+      nav ul li {
+        padding: 20px 50px;
+        list-style: none;
+        font-weight: bold;
+        
+      }
+      ul li a{
+        color: var(--text-color, white);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
