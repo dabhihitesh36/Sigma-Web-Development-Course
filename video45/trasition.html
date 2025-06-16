@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU BAR Trasition</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background: blue;
+        display: flex;
+      }
+      .sidebar {
+        width: 10%;
+        /* min-height: 100vh; */
+        background: black;
+        transition: width 3s cubic-bezier(0.25, 0.1, 0, 1.03) 1s;
+      }
+
+      .translate:hover {
+        width: 100%;
+      }
+
+      .main {
+        background-color: red;
+        padding: 20px;
+        color: white;
+      }
+
+      .menu button img {
+        width: 28px;
+      }
+      .menu button {
+        background: none;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar translate">
+        <div class="menu">
+          <button >
+            <img src="assets/menu-01-stroke-rounded.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+        minima soluta, nesciunt delectus tenetur esse ut aliquid magnam eveniet
+        dicta illo, explicabo culpa omnis. Illum necessitatibus obcaecati
+        molestiae facilis ipsum dolorum corrupti aut expedita sequi iste,
+        repudiandae quia impedit mollitia! Magni exercitationem dolore animi
+        nesciunt dolorem consectetur, eligendi nostrum, tempora nulla soluta
+        deleniti saepe similique, culpa ad rem fugit? Laudantium perferendis
+        voluptate voluptatem odio ipsum non recusandae laboriosam, fugiat quis a
+        obcaecati iure eum excepturi explicabo vitae? Pariatur vel doloremque
+        odit! Maiores ex nesciunt labore totam, voluptatem cum inventore dolor
+        amet dicta, voluptates hic minima eum natus fugit architecto aliquam?
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -152,6 +152,89 @@
     </main>
     <footer>
       <h4>&copy; All Rights Reserved- Develop By Hitesh Dabhi</h4>
+    </footer>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+        padding-bottom: 20px;
+      }
+      header {
+        position: sticky;
+        top: 0;
+      }
+      nav {
+        background-color: pink;
+        height: 83px;
+      }
+      .container {
+        background-color: grey;
+        /* min-height: 80vh; */
+        margin: 10px 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .box {
+        width: 50%;
+        height: 70vh;
+        margin: 20px;
+      }
+      .box1 {
+        background-color: orange;
+      }
+      .box2 {
+        background-color: green;
+      }
+      footer {
+        margin: auto;
+        border: 2px solid white;
+        /* height: 83px; */
+        width: 80vw;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .orangebox {
+        background-color: orange;
+        border: 1px solid white;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="orangebox"></div>
+      </div>
+    </main>
+    <footer>
+      <h1>Welcome to <br />sigma web development course</h1>
     </footer>
   </body>
 </html>
